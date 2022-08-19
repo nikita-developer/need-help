@@ -8,7 +8,12 @@
 <script>
 import AsideList from './AsideList.vue';
     export default {
-    components: { AsideList }
+    components: { AsideList },
+    data() {
+        return {
+            aside: true,
+        }
+    }
 }
 </script>
 

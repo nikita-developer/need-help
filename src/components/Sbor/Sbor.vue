@@ -40,7 +40,6 @@
                 group: [],
                 thisList: [],
                 fullList: [],
-                aside: true,
                 groups: [
                     {
                         id: 1,
