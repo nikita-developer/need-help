@@ -16,7 +16,11 @@
 	import Aside from "./components/Aside/Aside.vue";
 	import Sbor from "./components/Sbor/Sbor.vue";
 	export default {
-    	components: { Header, Aside, Sbor }
+		components: {
+			Header,
+			Aside,
+			Sbor
+		}
 	}
 </script>
 
@@ -64,6 +68,22 @@
 			margin-bottom: 30px;
 		}
 	}
+
+	.label {
+		&__text {
+			font-size: 20px;
+			color: #302F2D;
+			margin-bottom: 20px;
+		}
+	}
+
+	.field {
+		width: 100%;
+		background-color: #FAFAFA;
+		border: 1px solid #E6E6E6;
+		padding: 13px 10px;
+	}
+
 	@media (max-width: 1280px) {
 		.main {
 			position: relative;
